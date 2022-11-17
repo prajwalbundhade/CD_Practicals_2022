@@ -30,3 +30,33 @@ prech == 'd' ||prech == 'e' ||prech == 'f' ||
 prech == 'g' ||prech == 'h' ||prech == 'i' ||
 prech == 'j' ||prech == 'k' ||prech == 'l' ||
 prech == 'm' ||prech == 'n' ||prech == 'o' ||
+prech == 'p' ||prech == 'q' ||prech == 'r' ||
+prech == 's'|| prech == 't' ||prech == 'u' ||prech == 'v' ||
+prech == 'w' ||prech == 'x' ||prech == 'y' ||prech == 'z'
+)
+printf("%c %c is a valid operator ",ch,postch);
+}
+else if(prech == 'a' || prech == 'b' ||prech == 'c' ||
+prech == 'd' ||prech == 'e' ||prech == 'f' ||
+prech == 'g' ||prech == 'h' ||prech == 'i' ||
+prech == 'j' ||prech == 'k' ||prech == 'l' ||
+prech == 'm' ||prech == 'n' ||prech == 'o' ||
+prech == 'p' ||prech == 'q' ||prech == 'r' ||
+prech == 's' ||prech == 't' ||prech == 'u' ||
+prech == 'v' ||prech == 'w' ||prech == 'x' ||prech ==
+'y' ||prech == 'z' ){
+if(postch == 'a' || postch == 'b' ||postch == 'c' ||
+postch == 'd' ||postch == 'e' ||postch == 'f' ||postch == 'g' ||
+postch == 'h' ||postch == 'i' ||postch == 'j' ||postch == 'k' ||
+postch == 'l' ||postch == 'm' ||postch == 'n' ||postch == 'o' ||
+postch == 'p' ||postch == 'q' ||postch == 'r' ||postch == 's' ||
+postch == 't' ||postch == 'u' ||postch == 'v' ||postch == 'w' ||
+postch == 'x' ||postch == 'y' ||postch == 'z')
+printf("%c is a valid operator ",ch);
+}
+else
+printf("Enter a Valid Operator in the Expression");
+}
+}
+return 0;
+}
